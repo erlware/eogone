@@ -1,0 +1,11 @@
+%% -*- erlang -*-
+{application, eogone,
+ [{description, "Erlang Ogone API"},
+  {vsn, "0.0.1"},
+  {applications, [
+                  kernel
+                  ,stdlib
+                  ,hackney
+                 ]},
+  {start_phases, []}
+ ]}.
